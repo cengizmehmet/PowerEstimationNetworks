@@ -205,3 +205,38 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# =========================
+# Project-specific (PENs)
+# =========================
+
+# Jupyter / Colab artifacts
+.ipynb_checkpoints/
+*.ipynb~
+
+# Experiment outputs / logs
+runs/
+wandb/
+mlruns/
+logs/
+outputs/
+results/
+
+# Model checkpoints
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.onnx
+
+# Data: keep raw/large data out of git
+data/raw/
+data/interim/
+
+# Archives
+*.zip
+*.rar
+*.7z
+
+# Optional: ignore parquet by default (uncomment if you don't want parquet in repo)
+# *.parquet
