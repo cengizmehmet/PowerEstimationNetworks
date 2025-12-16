@@ -12,10 +12,20 @@ This repository contains research code developed for a PhD thesis and includes c
   - baseline regression models
 - Designed to be **dataset-agnostic**: it can be used with any dataset that follows the same protocol as ABCD.
 
-## Data format
-The processed dataset is tabular and contains:
-- **Input column:** `Model` (textual representation of the DNN architecture)
-- **Target column:** `Avg_Power_Simpson` (power-related metric)
+# Dataset access
+
+This repository includes a lightweight, processed dataset suitable for demonstration and reproducibility purposes.
+
+The complete dataset, including raw traces and intermediate artefacts, is hosted in the Newcastle University Data Centre and is available upon request or via institutional access.
+
+For full dataset access, see:
+<INSTITUTIONAL LINK HERE>
+
+## Dataset schema
+- Model: textual representation of the DNN architecture
+- Avg_Power_Simpson: target power metric
+
+Additional columns may include analytical descriptors and metadata.
 
 See [`data/README.md`](data/README.md) for details.
 
@@ -44,8 +54,18 @@ For reproducible experiments, document:
 - dataset version/checksum
 - train/val/test split protocol
 
-## Citation
-If you use this code in academic work, please cite it. See [`CITATION.cff`](CITATION.cff)
+## Related publications
+This repository accompanies the following research outputs:
+
+- **PhD thesis** (to appear):  
+  *Generalising Performance Prediction via Incremental Topology Exploration of Deep Neural Networks and Continual Learning*,
+  Mehmet Cengiz, Newcastle University.
+  The full dataset is described in **Chapter 4**, and the study associated with this repository is presented in **Chapter 5**.
+
+- **Journal / conference papers** (in preparation / under review):  
+  Details will be added once available.
+
+If you use this code or dataset, please cite the software (see [`CITATION.cff`](CITATION.cff)) and the corresponding publication when available.
 
 ## License
 This project is released under the MIT License (see [`LICENSE`](LICENSE)).
