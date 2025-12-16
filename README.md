@@ -29,4 +29,22 @@ This project was originally developed in Google Colab. A minimal workflow is:
    ```bash
    git clone https://github.com/cengizmehmet/PowerEstimationNetworks.git
    cd PowerEstimationNetworks
+   
+2. Add your notebook to notebooks/ (or open it in Colab).
+3. Place the dataset in: data/
+
+If you later export the code into Python modules, we recommend adding:
+- requirements.txt or pyproject.toml
+- scripts/train.py and scripts/eval.py
+
+## Reproducibility
+For reproducible experiments, document:
+- random seed(s)
+- library versions
+- dataset version/checksum
+- train/val/test split protocol
+
+## Citation
+If you use this code in academic work, please cite it. See <a>CITATION.cff</a>
+
 
