@@ -47,4 +47,5 @@ For reproducible experiments, document:
 ## Citation
 If you use this code in academic work, please cite it. See [`CITATION.cff`](CITATION.cff)
 
-
+## License
+This project is released under the MIT License (see [`LICENSE`](LICENSE)).
