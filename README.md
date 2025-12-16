@@ -45,6 +45,6 @@ For reproducible experiments, document:
 - train/val/test split protocol
 
 ## Citation
-If you use this code in academic work, please cite it. See <a>CITATION.cff</a>
+If you use this code in academic work, please cite it. See [`CITATION.cff`](CITATION.cff)
 
 
