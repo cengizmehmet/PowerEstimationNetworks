@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "PowerEstimationNetworks"
+type: software
+authors:
+  - family-names: "Cengiz"
+    given-names: "Mehmet"
+repository-code: "https://github.com/cengizmehmet/PowerEstimationNetworks"
+license: MIT
+keywords:
+  - deep learning
+  - power consumption
+  - energy efficiency
+  - performance prediction
+  - continual learning
+  - progressive neural networks
+abstract: >
+  Power Estimation Networks (PENs) is a device-agnostic framework for predicting
+  deep neural network power consumption from architecture representations. The
+  repository includes modelling baselines (including Progressive Neural Networks
+  as a continual-learning case study) and supports evaluation on unseen or
+  out-of-distribution architectures.
+preferred-citation:
+  type: software
+  title: "PowerEstimationNetworks"
+  authors:
+    - family-names: "Cengiz"
+      given-names: "Mehmet"
+  year: 2025
+  url: "https://github.com/<YOUR-USER>/PowerEstimationNetworks"
